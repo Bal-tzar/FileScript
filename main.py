@@ -6,7 +6,6 @@ print("--------- These are the files in ", cleanUp, "---------")
 for item in dir_path.glob("*"):
     if item.is_file():
         print(item)
-#print(list(dir_path.glob('*.*')))
 sortingChoice = input("Would you like to sort these files? yes/no   -")
 
 if sortingChoice == 'yes':
