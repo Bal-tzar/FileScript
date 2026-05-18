@@ -1,12 +1,12 @@
 from pathlib import Path
 
-cleanUp = input("What directory would you like to clean up? ")
+cleanUp = input("Which directory would you like to clean up? ")
 dir_path = Path(cleanUp)
-print("--------- These are the files in ", cleanUp, "---------")
+print("--------- These are the unsorted files in ", cleanUp, "---------")
 for item in dir_path.glob("*"):
     if item.is_file():
         print(item)
-sortingChoice = input("Would you like to sort these files? yes/no   -")
+sortingChoice = input("Would you like to sort these files? yes/no:   ")
 
 if sortingChoice == 'yes':
     for files in dir_path.glob('*.txt'):
