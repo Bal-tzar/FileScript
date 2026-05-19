@@ -14,3 +14,14 @@ Simply run the script, follow the instructions in the terminal.
 
 **Note: type in the ABSOLUTE and CORRECT path that you want sorted. With or without a trailing /, doesn't matter.**
 
+## Future additions
+
+- [ ] Dry run
+- [ ] GUI
+- [ ] Duplicate handling
+- [ ] Undo functionality
+- [ ] Logging
+- [ ] Recursive sorting
+- [ ] SKY IS THE LIMIT
+
+
