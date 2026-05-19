@@ -10,7 +10,11 @@ print("--------- These are the unsorted files in ", cleanUp, "---------")
 for item in dir_path.glob("*"):
     if item.is_file():
         print(item)
+
+
 sortingChoice = input("Would you like to sort these files? yes/no:   ")
+
+
 if sortingChoice == 'yes':
     for files in dir_path.glob('*'):
         if files.is_file():
