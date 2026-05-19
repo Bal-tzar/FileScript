@@ -1,0 +1,12 @@
+{
+  ".png": "images",
+  ".jpeg": "images",
+  ".jpg": "images",
+  ".mp3": "music",
+  ".mp4": "movies",
+  ".txt": "texts",
+  ".md": "texts",
+  ".py": "pythonProjects",
+  ".pdf": "pdf",
+  ".zip": "zip"
+}

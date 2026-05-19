@@ -1,4 +1,8 @@
 from pathlib import Path
+import json
+
+with(open('config.json')) as config_file:
+    data = json.load(config_file)
 
 cleanUp = input("Which directory would you like to clean up? ")
 dir_path = Path(cleanUp)
