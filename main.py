@@ -26,5 +26,7 @@ if sorting_choice == 'yes':
                 files.rename(destination / files.name)
     print('Cleaned up in', dir_path)
 
-else:
+if sorting_choice == 'no':
     print("Okay, I won't!")
+
+
